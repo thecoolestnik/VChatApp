@@ -1,5 +1,20 @@
 {
-  "dependencies": {
-    "crypto-js": "^4.1.1"
+    "name": "nodeserver",
+    "version": "1.0.0",
+    "description": "This is a node Server",
+    "main": "index.js",
+    "engines": {
+      "node": "14.x"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Hunter",
+    "license": "ISC",
+    "dependencies": {
+      "socket.io": "^4.2.0"
+    },
+    "devDependencies": {}
   }
-}
+  
